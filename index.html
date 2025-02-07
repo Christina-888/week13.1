@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="shortcut icon" href="./assets/img/icon/1.svg" type="image/svg"> 
+    <title>Your birthday is...</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1 class="title">ДНИ ДО ДНЯ РОЖДЕНИЯ</h1>
+      <form class="container" onsubmit="return false">
+        <input type="date" id="birthday"/>
+        <button id="btn">Посчитать</button>
+      </form>
+      <p id="error-message">Введите, пожалуйста, дату вашего рождения в текущем году</p>
+      <p id="message"></p>
+    </div>
+
+    <script src="./assets/script/index.js"></script>
+  </body>
+</html>
