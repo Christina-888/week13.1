@@ -31,4 +31,6 @@ if (userDate <= date) {
 let diff = Math.ceil((userDate - date) / (1000 * 60 * 60 * 24));
 
 message.textContent = 'До вашего дня рождения осталось дней: ' + diff;
+
+birthdayInput.value = '';
 });
